@@ -1,0 +1,117 @@
+h4 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 270%;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  color: #642179;
+  margin: 0px;
+  font-weight: 200;
+  text-align: center;
+}
+.jumbotron h1, .jumbotron .h1 {
+  color: inherit;
+  text-align: center;
+  color: rgba(2, 47, 90, 0.97);
+}
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background: rgb(207, 207, 207);
+  margin: 10px;
+  padding: 10px;
+ 
+}h4 {
+  color: #040505;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 277%;
+  /* background: azure; */
+}
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+ 
+
+ 
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+
+ .panel-primary>.panel-heading {
+  color: #ffffff;
+  background-color: #2fa4e7;
+  border-color: #1786cc;
+  background: #1FAD92;
+  padding: 33px;
+  margin: -13px;
+}
+.panel-warning>.panel-heading{
+
+  color: #ffffff;
+  background-color: #2fa4e7;
+  border-color: #1786cc;
+  background:#317eac;
+  padding: 33px;
+  margin: -13px;
+} 
+.panel-success >.panel-heading{
+  
+    color: #ffffff;
+    background-color: #2fa4e7;
+    border-color: #1786cc;
+    background:#30AAAC;
+    padding: 33px;
+    margin: -13px;
+  } .form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color:black;
+    background-color: rgb(65, 141, 255);
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */        // isme filed fill green nhi to red show hogi
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
